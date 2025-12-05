@@ -12,69 +12,69 @@ v1 (current)
 
    ### Titles - Multiples:
 
-   path: /titles
-   description: returns array of titles according to filters
+   - path: /titles
+   - description: returns array of titles according to filters
 
    ### Titles - By List of Id's:
 
-   path: /x/titles-by-ids
-   description: returns array of titles according to array of id's provided
+   - path: /x/titles-by-ids
+   - description: returns array of titles according to array of id's provided
 
    ### Title
 
-   path: /titles/{id}
-   description: returns title according to filters
+   - path: /titles/{id}
+   - description: returns title according to filters
 
    ### Title Rating
 
-   path: /titles/{id}/ratings
-   description: returns title rating and votes number
+   - path: /titles/{id}/ratings
+   - description: returns title rating and votes number
 
 2. Search
 
    ### Titles by Keyword
 
-   path: /titles/search/keyword/{keyword}
-   description: returns array of titles according to filters
+   - path: /titles/search/keyword/{keyword}
+   - description: returns array of titles according to filters
 
    ### Titles by Title
 
-   path: /titles/search/title/{title}
-   description: returns array of titles according to filters
+   - path: /titles/search/title/{title}
+   - description: returns array of titles according to filters
 
    ### Titles by Aka's
 
-   path: /titles/search/akas/{aka}
-   description: returns array of titles according to filters
+   - path: /titles/search/akas/{aka}
+   - description: returns array of titles according to filters
 
 3. Actors
 
    ### Actors
 
-   path: /actors
-   description: returns array of actors according to filters provided
+   - path: /actors
+   - description: returns array of actors according to filters provided
 
    ### Actor By Id
 
-   path: /actors/{id}
-   description: returns actor details
+   - path: /actors/{id}
+   - description: returns actor details
 
 4. Utils
 
    ### Title Type
 
-   path: /title/utils/titleType
-   description: returs array of title types
+   - path: /title/utils/titleType
+   - description: returs array of title types
 
    ### Genres
 
-   path: /title/utils/titleType
-   description: returs array of genres
+   - path: /title/utils/titleType
+   - description: returs array of genres
 
    ### Titles Lists
 
-   path: /title/utils/lists
-   description: returns array of lists (for 'list' query parameter)
+   - path: /title/utils/lists
+   - description: returns array of lists (for 'list' query parameter)
 
    ## Request and Response Format
 
