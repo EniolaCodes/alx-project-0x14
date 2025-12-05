@@ -9,42 +9,70 @@ v1 (current)
 ## Available Endpoints
 
 1. Titles
-   a. Titles - Multiples:
+
+   ### Titles - Multiples:
+
    path: /titles
    description: returns array of titles according to filters
-   b. Titles - By List of Id's:
+
+   ### Titles - By List of Id's:
+
    path: /x/titles-by-ids
    description: returns array of titles according to array of id's provided
-   c. Title
+
+   ### Title
+
    path: /titles/{id}
    description: returns title according to filters
-   d. Title Rating
+
+   ### Title Rating
+
    path: /titles/{id}/ratings
    description: returns title rating and votes number
+
 2. Search
-   a. Titles by Keyword
+
+   ### Titles by Keyword
+
    path: /titles/search/keyword/{keyword}
    description: returns array of titles according to filters
-   b. Titles by Title
+
+   ### Titles by Title
+
    path: /titles/search/title/{title}
    description: returns array of titles according to filters
-   c.Titles by Aka's
+
+   ### Titles by Aka's
+
    path: /titles/search/akas/{aka}
    description: returns array of titles according to filters
+
 3. Actors
-   a. Actors
+
+   ### Actors
+
+   path: /actors
    description: returns array of actors according to filters provided
-   b. Actor By Id
+
+   ### Actor By Id
+
    path: /actors/{id}
    description: returns actor details
+
 4. Utils
-   a. Title Type
+
+   ### Title Type
+
    path: /title/utils/titleType
    description: returs array of title types
-   b. Genres
+
+   ### Genres
+
    path: /title/utils/titleType
    description: returs array of genres
-   c. Titles Lists
+
+   ### Titles Lists
+
    path: /title/utils/lists
    description: returns array of lists (for 'list' query parameter)
 
@@ -52,7 +80,7 @@ v1 (current)
 
    Request
    curl --request GET
-   --url https://moviesdatabase.p.rapidapi.com/titles/API KEY/main_actors
+   --url https://moviesdatabase.p.rapidapi.com/titles/ API KEY/main_actors
    --header 'x-rapidapi-host: moviesdatabase.p.rapidapi.com'
    --header 'x-rapidapi-key: API KEY'
 
